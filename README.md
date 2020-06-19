@@ -1,1 +1,5 @@
-# public-frontend-challenge-001
+# Jungle Devs - Frontend Challenge #001
+
+  ## Description
+
+Hold tight, we will publish this challenge very soon 🤘
