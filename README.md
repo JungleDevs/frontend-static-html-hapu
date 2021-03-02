@@ -9,7 +9,7 @@
   
   
   ## Resources
-  **Design**: [Figma](https://www.figma.com/file/iBxoiuoSXy3SiOAnwXo2Np/Frontend-%E2%80%93-Challenge-1)
+  **Design**: [Figma](https://www.figma.com/file/fdncF938AXrCMjOFw1n483/Frontend-%E2%80%93-Challenge-1B)
   
   
   ## Acceptance criteria
