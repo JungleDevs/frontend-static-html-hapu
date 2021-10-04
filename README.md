@@ -27,6 +27,7 @@
   * Any browser, preferably your favorite.
   
 ## Instructions to Run
+  * Fork this repository and clone it;
   * Open your index.html file and open it in your favorite browser (IE doesn't count 😆);
   * Every change you make to your HTML or CSS you'll need to refresh your webpage on your browser.
   
