@@ -8,8 +8,6 @@ html, body {
   overflow-x: hidden !important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
 /* HEADER CONTENT */
 .header-content {
   align-items: center;
@@ -42,7 +40,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 2.0rem;
   margin-right: 20px;
   text-align: center;
@@ -73,7 +71,7 @@ html, body {
   border: none;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   height: 44px;
   margin-right: 16px;
   min-width: 234px;
@@ -88,7 +86,7 @@ html, body {
   border: none;
   color: #FFFFFF;
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   height: 44px;
   margin-right: 16px;
   min-width: 50px;
@@ -176,7 +174,7 @@ html, body {
   font-style: normal;
   font-weight: 500;
   font-size: 1.6rem;
-  line-height: 2.8rem;
+  line-height: 2.4rem;
   margin: 10px 16px 0;
   text-align: center;
 }
@@ -212,18 +210,18 @@ html, body {
   color: #5E20A4;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.6rem;
   line-height: 2.4rem;
   margin-left: 32px;
   text-align: center;
-  width: 380px;
+  width: 361px;
 }
 
 .available-paragraph {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.6rem;
   line-height: 2.4rem;
   text-align: center;
@@ -276,7 +274,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 2.8rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 3.2rem;
   margin-bottom: 0;
   text-align: left;
@@ -288,8 +286,8 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 2.4rem;
+  font-weight: 400;
+  line-height: 2.8rem;
   margin-top: 40px;
   text-align: left;
   width: 444px;
@@ -330,7 +328,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 2.2rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 3.2rem;
   text-align: center;
   width: 985px;
@@ -341,7 +339,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 2.4rem;
   margin: 16px 0 32px;
   text-align: center;
@@ -410,7 +408,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 2.8rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 3.2rem;
   margin-bottom: 0;
   margin-top: 0;
@@ -423,7 +421,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 2.8rem;
   margin: 16px 0;
   text-align: left;
@@ -435,7 +433,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 2.4rem;
   margin-top: 8px;
   text-align: left;
@@ -463,7 +461,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 2.8rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 3.2rem;
   margin-bottom: 0;
   text-align: center;
@@ -475,7 +473,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 2.8rem;
   margin: 40px;
   text-align: center;
@@ -487,7 +485,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 2.4rem;
   margin-top: 8px;
   margin-bottom: 64px;
@@ -495,7 +493,192 @@ html, body {
   width: 394px;
 }
 
+/* COOMING SOON */
+.cooming-soon-content {
+  align-items: center;
+  background-color: #FAF9F7;
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+  flex-direction: column;
+}
 
+.cooming-soon-title {
+  color: #3D3D3D;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  margin-bottom: 0;
+  text-align: center;
+  width: 522px;
+}
+
+.cooming-soon-paragraph {
+  color: #3D3D3D;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  margin-top: 16px;
+  margin-bottom: 64px;
+  text-align: center;
+  width: 784px;
+}
+
+.cooming-soon-image {
+  height: 96px;
+  width: 216px;
+}
+
+/* FOOTER */
+.footer-content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-title {
+  color: #3D3D3D;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  margin-bottom: 0;
+  margin-top: 40px;
+  text-align: center;
+  width: 380px;
+}
+
+.footer-paragraph {
+  color: #3D3D3D;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-top: 5px;
+  margin-bottom: 24px;
+  text-align: center;
+  width: 342px;
+}
+
+.footer-button-content {
+  align-items: center;
+  background-color: #5E20A4;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  height: 68px;
+  justify-content: space-evenly;
+  margin-bottom: 24px;
+  width: 304px;
+}
+
+.footer-button-content:hover {
+  cursor: pointer;
+}
+
+.footer-button-first-paragraph {
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 28px;
+  line-height: 2.8rem;
+  margin: 0;
+  text-align: center;
+  width: 191px;
+}
+
+.footer-button-second-paragraph {
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 16px;
+  line-height: 1.6rem;
+  margin: 0;
+  text-align: center;
+  width: 147px;
+}
+
+.footer-anchor {
+  color: #5E20A4;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  margin-bottom: 48px;
+  text-align: center;
+  width: 229px;
+}
+
+.footer-subsection-content {
+  align-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.footer-links-content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  margin-left: 130px;
+  width: 500px;
+}
+
+.footer-links {
+  color: #3D3D3D;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 1.4rem;
+  font-weight: 500;
+  height: 20px;
+  line-height: 2.0rem;
+  margin: 0 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer-socials-content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 85px;
+}
+
+.footer-social-button {
+  background-color: #FFFFFF;
+  border: 1px solid #DFDFDF;
+  border-radius: 50%;
+  height: 45px;
+  margin: 0 8px;
+  width: 45px;
+}
+
+.footer-last-paragraph {
+  color: #3D3D3D;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin: 24px 0;
+  text-align: center;
+  width: 311px;
+}
 
 /* <------------ RESPONSIVE! --------------------> */
 /* <------------ RESPONSIVE! --------------------> */
@@ -539,21 +722,28 @@ html, body {
 
   .hero-content-title {
     align-items: center;
+    color: #C4C4C4;
     display: flex;
-    font-size: 2.8rem;
-    line-height: 3.2rem;
+    font-family: 'Inter';
+    font-size: 4.0rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 4.8rem;
     text-align: center;
     width: 272px;
   }
 
   .hero-content-paragraph {
     align-items: center;
+    color: #FFFFFF;
     display: flex;
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 1.6rem;
+    font-style: 400;
+    font-size: 1.8rem;
+    font-weight: normal;
     height: 84px;
-    line-height: 2.8rem;
+    line-height: 2.4rem;
     margin: 10px 16px 0;
     text-align: center;
     width: 328px;
@@ -723,6 +913,51 @@ html, body {
 
   .framework-article-anchor {
     width: 328px;
+  }
+
+  /* COOMING SOON */
+  .cooming-soon-title {
+    font-size: 2.2rem;
+    width: 218px;
+  }
+
+  .cooming-soon-paragraph {
+    line-height: 2.4rem;
+    width: 328px;
+  }
+
+  /* FOOTER */
+  .footer-title {
+    font-size: 2.2rem;
+    width: 291px;
+  }
+
+  .footer-paragraph {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    width: 304px;
+  }
+
+  .footer-subsection-content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    width: 64px;
+    height: 24px;
+  }
+
+  .footer-links-content {
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 250px;
+  }
+
+  .footer-links {
+    margin-bottom: 17px;
   }
 }
 
