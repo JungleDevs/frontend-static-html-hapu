@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  justify-content: space-between;
+  left: 0;
+  margin: auto;
+  max-width: 1440px;
+  right: 0;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  gap: 40px;
+}
+
+.logo {
+  width: 48px;
+}
+
+.signin {
+  display:flex;
+  align-items: center;
+}
+
+.wrapper {
+  border: 2px solid red;
+}
+
+.wrapper div {
+  border: 2px solid blue;
+}
