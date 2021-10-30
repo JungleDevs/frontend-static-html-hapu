@@ -5,7 +5,22 @@
   padding: 0;
 }
 
+body {
+  background-color: #f2f2f2;
+}
+
 header {
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background: url("resources/banner_image.png"),
+  linear-gradient(
+    314.72deg,
+    #c86dd7 -1.5%,
+    #7e49c3 39.43%,
+    #5912ac 86.02%
+  );
+  /* height: 616px; */
   display: flex;
   font-size: 1rem;
   font-weight: 500;
@@ -32,10 +47,6 @@ header {
   align-items: center;
 }
 
-.wrapper {
-  border: 2px solid red;
-}
-
-.wrapper div {
-  border: 2px solid blue;
+.hero {
+  
 }
