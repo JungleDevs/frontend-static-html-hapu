@@ -4,6 +4,11 @@
   margin: 0;
   padding: 0;
 }
+a, a:visited {
+  font-weight: 500;
+  transition: 0.15s;
+  text-underline-position: under;
+}
 
 body {
   background-color: #f2f2f2;
@@ -12,19 +17,20 @@ body {
 header {
   background-blend-mode: overlay;
   background-position: center;
-  background-size: cover;
   background: url("resources/banner_image.png"),
   linear-gradient(
     314.72deg,
     #c86dd7 -1.5%,
     #7e49c3 39.43%,
     #5912ac 86.02%
-  );
-  /* height: 616px; */
+    );
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 616px;
   display: flex;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 500;
-  justify-content: space-between;
   left: 0;
   margin: auto;
   max-width: 1440px;
@@ -33,20 +39,92 @@ header {
 
 .nav-header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  gap: 40px;
   margin: 0 20px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 40px;
 }
 
 .logo {
-  width: 48px;
+  height: 64px;
 }
 
-.signin {
-  display:flex;
+.nav-header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.nav-sign {
+  display: flex;
   align-items: center;
+  gap: 23px;
+}
+nav {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-sign button {
+  color: #fff;
+  padding: 12px 21px;
+  background: #00C88C;
 }
 
 .hero {
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  color: #fff;
+  gap: 15vw;
+  margin-left: 8vw;
+  height: 100%;
+  width: 80vw;
 }
+
+article {
+  width: 38vw;
+}
+.hero article h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  line-height: 3rem;
+  margin-bottom: 24px;
+}
+
+.hero article p {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin-bottom: 24px;
+}
+
+.hapu-action, .hapu-action > a {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  color: #fff;
+}
+
+.btn-play {
+  align-items: center;
+  border-radius: 100%;
+  border: 0;
+  display: flex;
+  cursor: pointer;
+
+}
+
+.hero > img {
+  width: 25vw;
+}
+
