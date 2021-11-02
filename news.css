@@ -1,0 +1,30 @@
+.news {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    gap: 32px;
+    height: 114px;
+    justify-content: center;
+}
+
+.news img {
+    width: 3.9vw;
+}
+
+.info-news {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.info-news a {
+    color: #5E20A4;
+}
+
+.info-news p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
