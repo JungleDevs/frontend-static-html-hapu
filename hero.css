@@ -74,6 +74,8 @@ nav {
 }
 
 .nav-sign button {
+  border: 1px;
+  border-radius: 5%;
   color: #fff;
   padding: 12px 21px;
   background: #00C88C;
@@ -91,7 +93,7 @@ nav {
   width: 80vw;
 }
 
-article {
+.hero article {
   width: 38vw;
 }
 .hero article h1 {
